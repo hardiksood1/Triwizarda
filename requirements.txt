@@ -1,0 +1,4 @@
+gradio==3.44.1
+requests==2.31.0
+Pillow==10.0.0
+serpapi==1.0.0
