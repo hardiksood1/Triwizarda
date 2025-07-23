@@ -31,12 +31,15 @@ Download or clone the project repository.
 
 Install dependencies using pip:
 pip install -r requirements.txt
+---
 
-##🧑‍💻 How to Use
-##Run the application:
+## 🧑‍💻 How to Use
+---
 
-python app.py
-##Then:
+### Run the application:
+---
+- python app.py
+#### Then:
 
 Open the displayed link in your browser.
 Upload a product image.
@@ -44,13 +47,15 @@ Select your desired output language.
 View product details, pricing, and similar product recommendations.
 
 
-##📁 Project Structure
+## 📁 Project Structure
+---
 File	                                             Description
 config.py:                	Stores configuration variables like API keys and endpoint URLs
 core_logic.py:	            Handles image processing, AI queries, data fetching, and translation logic
 app.py:                                	Launches the Gradio web interface
-
-##📝 Notes
+---
+## 📝 Notes
+---
 Ensure all API keys and URLs are correctly configured in config.py.
 Images are automatically compressed to meet API size requirements.
 English is used by default unless another language is selected.
