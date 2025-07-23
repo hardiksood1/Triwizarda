@@ -50,10 +50,10 @@ Download or clone the project repository.
 
 ## 📁 Project Structure
 ---
--  File	:                                             - Description
-- config.py :                	- Stores configuration variables like API keys and endpoint URLs
-- core_logic.py :	            - Handles image processing, AI queries, data fetching, and translation logic
-- app.py :                                	- Launches the Gradio web interface
+-  File	:-                                                 Description
+- config.py :-                     Stores configuration variables like API keys and endpoint URLs
+- core_logic.py :-              Handles image processing, AI queries, data fetching, and translation logic
+- app.py :-                                        Launches the Gradio web interface
 ---
 ## 📝 Notes
 ---
