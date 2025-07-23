@@ -1,2 +1,2 @@
-# Triwizarda
+# TriwizardaThon LSA
 Hackathon
