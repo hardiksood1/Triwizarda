@@ -1,36 +1,55 @@
-# Product Image Intelligence (Multi-language)
-In order to identify product details such as brand, title, description, and key features, this project uses artificial intelligence to analyze product images. Additionally, it offers comparable product recommendations and price comparisons from online retailers. Several languages can be used to translate the output.
+🛍️ Product Image Intelligence (Multi-language)
+This project uses artificial intelligence to analyze product images and extract key details such as brand, title, description, and features. It also provides comparable product recommendations and price comparisons from online retailers. Output can be translated into multiple languages for global accessibility.
 
-#Features
-To have a product image automatically analyzed, upload it.\
-Use NVIDIA's AI model to create product details.
-Use SerpApi to retrieve prices and comparable product details from Google Shopping.
-Translate descriptions into multiple languages.
-Gradio was used to create an intuitive web interface.
+🚀 Features
+📸 Automatic Product Analysis: Upload a product image to extract details.
 
-#Instructions for Setup
-#Requirements
+🧠 AI-Powered Insights: Uses NVIDIA's AI model to generate product metadata.
+
+🛒 Price & Product Comparison: Retrieves prices and similar items via SerpApi from Google Shopping.
+
+🌐 Multi-language Support: Translates product descriptions into several languages.
+
+🖥️ User-Friendly Interface: Built with Gradio for intuitive web interaction.
+
+⚙️ Setup Instructions
+✅ Requirements
 Python 3.7 or later
-NVIDIA API key to access AI
-Shopping data using the SerpApi key
+
+NVIDIA API key (for AI Shopping data)
+
+SerpApi key (for Google Shopping data)
+
 Invoke URL for NVIDIA Cloud Function
 
-#Installation
-Download the project files or clone them.
-Install Python dependencies:
+📦 Installation
+Download or clone the project repository.
 
-#How to Use
+Install dependencies using pip:
+
+bash
+pip install -r requirements.txt
+🧑‍💻 How to Use
 Run the application:
+
+bash
 python app.py
+Open the displayed link in your browser.
 
-Open the displayed link in a web browser. Upload a product image and select the desired language. The app will return product details, prices, and similar products.
+Upload a product image.
 
-#Project Structure
-config.py : Stores configuration variables like API keys and URLs.
-core_logic.py : Contains image processing, AI querying, data fetching, and translation functions.
-app.py : Launches the Gradio web interface.
+Select your desired output language.
 
-#Notes
-Ensure API keys and URLs are set correctly.
-Image compression is automatic to stay within API size limits.
-English is the default language unless another language is chosen.
+View product details, pricing, and similar product recommendations.
+
+📁 Project Structure
+File	Description
+config.py	Stores configuration variables like API keys and endpoint URLs
+core_logic.py	Handles image processing, AI queries, data fetching, and translation logic
+app.py	Launches the Gradio web interface
+📝 Notes
+Ensure all API keys and URLs are correctly configured in config.py.
+
+Images are automatically compressed to meet API size requirements.
+
+English is used by default unless another language is selected.
