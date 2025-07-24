@@ -1,62 +1,201 @@
-# 🛍️ Product Image Intelligence (Multi-language)
+<h1 align="center">🧠📸 Product Image Intelligence (Multi-language)</h1>
+<blockquote align="center"><em>"AI that sees, understands, and speaks your product—instantly."</em></blockquote>
 
-This project uses artificial intelligence to analyze product images and extract key details such as **brand**, **title**, **description**, and **features**. It also provides **comparable product recommendations** and **price comparisons** from online retailers. Output can be translated into multiple languages for global accessibility.
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/python-pink?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/gradio-red?style=for-the-badge&logo=gradio&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-white?style=for-the-badge&logo=openai&logoColor=black"/>
+<img src="https://img.shields.io/badge/NVIDIA-blue?style=for-the-badge&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Cloud-black?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/SerpAPI-orange?style=for-the-badge&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Translate-pink?style=for-the-badge&logo=googletranslate&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pillow-red?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Requests-white?style=for-the-badge&logo=python&logoColor=black"/>
+<img src="https://img.shields.io/badge/JSON-blue?style=for-the-badge&logo=json&logoColor=white"/>
+<img src="https://img.shields.io/badge/VSCode-orange?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+
+</p>
+
+<p align="center">
+  <img src="https://github.com/alo7lika/TriwizardaThon/blob/main/demo%20(1).jpeg?raw=true" alt="Demo Image" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=FF69B4&size=40&width=900&height=80&lines=Welcome-to-Product-Image-Intelligence" alt="Welcome to Product Image Intelligence"/>
+</p>
+
+Welcome to a powerful AI tool that analyzes product images and automatically generates:
+
+- 🏷️ Brand  
+- 📝 Title & Description  
+- ✨ Key Features  
+- 💲 Price Comparisons  
+- 🔄 Similar Product Suggestions  
+- 🌐 Translations in multiple languages
+
+---
+## 🎥 Demo Preview
+
+See how our AI extracts product info, translates it, and compares prices — all from a single image!
+
+<p align="center">
+  <img src="https://github.com/alo7lika/TriwizardaThon/blob/main/Demo.gif" alt="Product Image Intelligence Demo"/>
+</p>
 
 ---
 
-## 🚀 Features
 
-- 📸 **Automatic Product Analysis**: Upload a product image to extract details.
-- 🧠 **AI-Powered Insights**: Uses NVIDIA's AI model to generate product metadata.
-- 🛒 **Price & Product Comparison**: Retrieves prices and similar items via SerpApi from Google Shopping.
-- 🌐 **Multi-language Support**: Translates product descriptions into several languages.
-- 🖥️ **User-Friendly Interface**: Built with Gradio for intuitive web interaction.
+## 🔍 What’s Inside
+
+This application converts any product image into a detailed, multilingual product card—perfect for e-commerce, cataloging, and digital retail platforms.
 
 ---
 
-## ⚙️ Setup Instructions
+## 🌟 Features Overview
 
-### ✅ Requirements
-
-- Python 3.7 or later  
-- NVIDIA API key (for AI Shopping data)  
-- SerpApi key (for Google Shopping data)  
-- Invoke URL for NVIDIA Cloud Function  
+| Feature                     | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| 🖼️ Image Upload            | Upload a product image to extract all product details                       |
+| 🧠 AI-Powered Metadata      | Uses NVIDIA's Janus-Pro-7B via cloud to understand product visuals          |
+| 🌍 Multi-Language Support   | Translate output into English, Hindi, French, and more                      |
+| 🛒 Price & Product Compare  | Uses SerpApi to fetch prices and similar products from Google Shopping      |
+| 🖥️ Gradio UI                | Simple, no-code web interface for fast interaction                          |
 
 ---
 
-## 📦 Installation
----
-Download or clone the project repository.
+## ⚙️ Tech Stack
 
-- Install dependencies using pip:
-- pip install -r requirements.txt
----
+- Python 3.7+
+- Gradio (Frontend)
+- Hugging Face Transformers
+- DeepSeek Janus-Pro-7B (via NVIDIA cloud)
+- SerpApi (Google Shopping API)
+- PIL (Image Processing)
+- CUDA acceleration (for local GPU inference)
 
-## 🧑‍💻 How to Use
----
-
-### Run the application:
----
-- python app.py
-
-#### Then:
----
-- Open the displayed link in your browser.
-- Upload a product image.
-- Select your desired output language.
-- View product details, pricing, and similar product recommendations.
 ---
 
+## 🚀 Quick Start
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/product-image-intelligence
+
+# 2. Navigate to the folder
+cd product-image-intelligence
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the app
+python app.py
+```
+## ✅ How to Use
+
+1. Open the **Gradio link** in your browser  
+2. 📤 Upload a **product image**  
+3. 🌐 Select your desired **language**  
+4. 👀 View the AI-generated output:  
+   - Brand  
+   - Title  
+   - Description  
+   - Features  
+   - Price comparisons & similar products  
+
+---
 ## 📁 Project Structure
+
+```
+Product-Image-Intelligence/
+│
+├── Dataset/
+│   ├── sample_inputs.csv           (Example data of product image inputs and outputs)
+│   └── README.md                   (Brief about input/output dataset structure)
+│
+├── Images/
+│   ├── demo (1).jpeg               (Product image example used in demo)
+│   └── Demo.gif                    (Recorded GIF preview of the app functionality)
+│
+├── Model/
+│   ├── core_logic.py              (Handles AI: image-to-text, translation, product comparison)
+│   ├── config.py                  (Stores API keys and endpoints: NVIDIA, SerpAPI)
+│   ├── README.md                  (Describes model flow and logic)
+│
+├── Web App/
+│   ├── app.py                     (Gradio app interface to run the project)
+│   ├── demo.mp4                   (Full working video demo of the app)
+│   ├── templates/                 (HTML templates if any)
+│   ├── static/                    (Custom CSS, JS or favicon if used)
+│   └── README.md                  (Instructions to run the web app)
+│
+├── requirements.txt              (Python dependencies for the whole project)
+└── README.md                     (Main project overview with badges, contributors, and demo)
+
+```
 ---
--  File	:-                                                 Description
-- config.py :-                     Stores configuration variables like API keys and endpoint URLs
-- core_logic.py :-              Handles image processing, AI queries, data fetching, and translation logic
-- app.py :-                                        Launches the Gradio web interface
+
+## 🧪 Example Flow
+
+- **Upload**: Headphones image  
+- **Select**: French  
+- **Output**:
+
+Marque: Sony
+Titre: Casque sans fil
+Description: Son immersif avec réduction de bruit
+Prix: ₹2999 (plus similar products listed)
+
+
+➡️ Then try again with a **beauty product** → Output appears in **Hindi**!
+
 ---
+
 ## 📝 Notes
+
+Make sure your `config.py` contains:
+
+- `NVIDIA_API_KEY`  
+- `SERPAPI_KEY`  
+- `NVIDIA Cloud URL`  
+
+⚠️ Images are **auto-compressed** to meet API size limits  
+🌍 English is the **default output language** unless changed
+
 ---
-- Ensure all API keys and URLs are correctly configured in config.py.
-- Images are automatically compressed to meet API size requirements.
-- English is used by default unless another language is selected.
+
+## 🚧 Coming Soon
+
+- 🔊 **Voice input/output**  
+- 📄 **Export to Excel/PDF**  
+- 🛒 **Integration with Shopify / Amazon APIs**  
+- 🌐 **More language support** (Spanish, German, Bengali, etc.)
+
+---
+
+## 👨‍💻 Created by **Team Innova1**
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/hardiksood1">
+        <img src="https://github.com/hardiksood1.png" width="100px;" alt="Hardik Sood"/><br />
+        <sub><b>Hardik Sood</b></sub>
+      </a><br />⚙️
+    </td>
+    <td align="center">
+      <a href="https://github.com/alo7lika">
+        <img src="https://github.com/alo7lika.png" width="100px;" alt="Alolika Bhowmik"/><br />
+        <sub><b>Alolika Bhowmik</b></sub>
+      </a><br />🎨
+    </td>
+  </tr>
+</table>
+
+
+Made with ❤️ for smarter, faster, and multilingual e-commerce automation.
+
+📧 **Contact**: hardiksood8@gmail.com, alolikabhowmik72@gmail.com
+
+🌐 **Live Demo**: *Uploaded above*
