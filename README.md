@@ -105,9 +105,9 @@ python app.py
    - Price comparisons & similar products  
 
 ---
-
 ## 📁 Project Structure
 
+```
 Product-Image-Intelligence/
 │
 ├── Dataset/
@@ -133,7 +133,7 @@ Product-Image-Intelligence/
 ├── requirements.txt              (Python dependencies for the whole project)
 └── README.md                     (Main project overview with badges, contributors, and demo)
 
-
+```
 ---
 
 ## 🧪 Example Flow
