@@ -40,9 +40,12 @@ Welcome to a powerful AI tool that analyzes product images and automatically gen
 
 See how our AI extracts product info, translates it, and compares prices — all from a single image!
 
-![Product Image Intelligence Demo](https://github.com/alo7lika/TriwizardaThon/blob/main/Demo.gif)
+<p align="center">
+  <img src="https://github.com/alo7lika/TriwizardaThon/blob/main/Demo.gif" alt="Product Image Intelligence Demo"/>
+</p>
 
 ---
+
 
 ## 🔍 What’s Inside
 
