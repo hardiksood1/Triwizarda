@@ -111,11 +111,11 @@ python app.py
 Product-Image-Intelligence/
 │
 ├── Dataset/
-│   ├── demo.jpg           (Example data of product image inputs and outputs)
+│   ├── demo(1).jpg           (Example data of product image inputs and outputs)
 │   └── README.md                   (Brief about input/output dataset structure)
 │
 ├── Images/
-│   ├── demo (1).jpeg               (Product image example used in demo)
+│   ├── demo (1).jpeg and  demo (2).jpeg            (Product image example used in demo)
 │   └── Demo.gif                    (Recorded GIF preview of the app functionality)
 │
 ├── Model_files/
