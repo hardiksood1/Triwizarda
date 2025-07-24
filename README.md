@@ -116,19 +116,15 @@ Product-Image-Intelligence/
 │
 ├── Images/
 │   ├── demo (1).jpeg and  demo (2).jpeg            (Product image example used in demo)
-│   └── Demo.gif                    (Recorded GIF preview of the app functionality)
+│   └── Demo.gif                                   (Recorded GIF preview of the app functionality)
 │
 ├── Model_files/
 │   ├── core_logic.py              (Handles AI: image-to-text, translation, product comparison)
 │   ├── config.py                  (Stores API keys and endpoints: NVIDIA, SerpAPI)
-│   ├── README.md                  (Describes model flow and logic)
 │
 ├── WebAppfiles with demo/
 │   ├── app.py                     (Gradio app interface to run the project)
 │   ├── demo.mp4                   (Full working video demo of the app)
-│   ├── templates/                 (HTML templates if any)
-│   ├── static/                    (Custom CSS, JS or favicon if used)
-│   └── README.md                  (Instructions to run the web app)
 │
 ├── requirements.txt              (Python dependencies for the whole project)
 └── README.md                     (Main project overview with badges, contributors, and demo)
