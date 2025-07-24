@@ -23,9 +23,8 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=FF69B4&center=true&vCenter=true&width=1000&lines=🧠+Product+Image+Intelligence+📸;AI+that+sees+%2C+understands+%2C+speaks+your+product" alt="Typing SVG Banner" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=FF69B4&size=40&width=900&height=80&lines=Welcome-to-Product-Image-Intelligence" alt="Welcome to Product Image Intelligence"/>
 </p>
-
 
 Welcome to a powerful AI tool that analyzes product images and automatically generates:
 
