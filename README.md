@@ -18,6 +18,10 @@
 
 </p>
 
+<p align="center">
+  <img src="https://github.com/alo7lika/TriwizardaThon/blob/main/demo%20(1).jpeg?raw=true" alt="Demo Image" width="600"/>
+</p>
+
 Welcome to a powerful AI tool that analyzes product images and automatically generates:
 
 - 🏷️ Brand  
