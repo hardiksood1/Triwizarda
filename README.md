@@ -1,5 +1,5 @@
-# 🧠📸 Product Image Intelligence (Multi-language)
-> *"AI that sees, understands, and speaks your product—instantly."*
+<h1 align="center">🛍️ Product Image Intelligence (Multi-language)</h1>
+<h3 align="center">🔍 AI-powered product image analysis with multilingual support</h3>
 
 <p align="center">
 
