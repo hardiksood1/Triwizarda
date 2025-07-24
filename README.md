@@ -58,7 +58,7 @@ This application converts any product image into a detailed, multilingual produc
 | Feature                     | Description                                                                 |
 |----------------------------|-----------------------------------------------------------------------------|
 | 🖼️ Image Upload            | Upload a product image to extract all product details                       |
-| 🧠 AI-Powered Metadata      | Uses NVIDIA's Janus-Pro-7B via cloud to understand product visuals          |
+| 🧠 AI-Powered Metadata      | Uses NVIDIA's model via cloud to understand product visuals          |
 | 🌍 Multi-Language Support   | Translate output into English, Hindi, French, and more                      |
 | 🛒 Price & Product Compare  | Uses SerpApi to fetch prices and similar products from Google Shopping      |
 | 🖥️ Gradio UI                | Simple, no-code web interface for fast interaction                          |
