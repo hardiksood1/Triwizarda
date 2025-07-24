@@ -1,17 +1,21 @@
 # 🧠📸 Product Image Intelligence (Multi-language)
 > *"AI that sees, understands, and speaks your product—instantly."*
 
-![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![Gradio](https://img.shields.io/badge/gradio-00b4b6?style=for-the-badge&logo=gradio&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA-A6E22E?style=for-the-badge&logo=nvidia&logoColor=black)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![SerpApi](https://img.shields.io/badge/SerpAPI-00B488?style=for-the-badge&logo=google&logoColor=white)
-![Google Translate API](https://img.shields.io/badge/Google%20Translate-4285F4?style=for-the-badge&logo=googletranslate&logoColor=white)
-![Pillow](https://img.shields.io/badge/Pillow-3076AF?style=for-the-badge&logo=python&logoColor=white)
-![Requests](https://img.shields.io/badge/Requests-005571?style=for-the-badge&logo=python&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+<p align="center">
+
+<img src="https://img.shields.io/badge/python-pink?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/gradio-red?style=for-the-badge&logo=gradio&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-white?style=for-the-badge&logo=openai&logoColor=black"/>
+<img src="https://img.shields.io/badge/NVIDIA-blue?style=for-the-badge&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Cloud-black?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/SerpAPI-orange?style=for-the-badge&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Translate-pink?style=for-the-badge&logo=googletranslate&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pillow-red?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Requests-white?style=for-the-badge&logo=python&logoColor=black"/>
+<img src="https://img.shields.io/badge/JSON-blue?style=for-the-badge&logo=json&logoColor=white"/>
+<img src="https://img.shields.io/badge/VSCode-orange?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+
+</p>
 
 Welcome to a powerful AI tool that analyzes product images and automatically generates:
 
