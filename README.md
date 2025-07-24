@@ -152,5 +152,5 @@ Make sure your `config.py` contains:
 
 Made with ❤️ for smarter, faster, and multilingual e-commerce automation.
 
-📧 **Contact**: [your-email@example.com]  
-🌐 **Live Demo**: *Coming Soon*
+📧 **Contact**: [hardiksood8@gmail.com]  
+🌐 **Live Demo**: *Uploaded above*
