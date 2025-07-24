@@ -70,7 +70,7 @@ This application converts any product image into a detailed, multilingual produc
 - Python 3.7+
 - Gradio (Frontend)
 - Hugging Face Transformers
-- DeepSeek Janus-Pro-7B (via NVIDIA cloud)
+- NVIDIA model
 - SerpApi (Google Shopping API)
 - PIL (Image Processing)
 - CUDA acceleration (for local GPU inference)
