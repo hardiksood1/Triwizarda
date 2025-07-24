@@ -111,19 +111,19 @@ python app.py
 Product-Image-Intelligence/
 │
 ├── Dataset/
-│   ├── sample_inputs.csv           (Example data of product image inputs and outputs)
+│   ├── demo.jpg           (Example data of product image inputs and outputs)
 │   └── README.md                   (Brief about input/output dataset structure)
 │
 ├── Images/
 │   ├── demo (1).jpeg               (Product image example used in demo)
 │   └── Demo.gif                    (Recorded GIF preview of the app functionality)
 │
-├── Model/
+├── Model_files/
 │   ├── core_logic.py              (Handles AI: image-to-text, translation, product comparison)
 │   ├── config.py                  (Stores API keys and endpoints: NVIDIA, SerpAPI)
 │   ├── README.md                  (Describes model flow and logic)
 │
-├── Web App/
+├── WebAppfiles with demo/
 │   ├── app.py                     (Gradio app interface to run the project)
 │   ├── demo.mp4                   (Full working video demo of the app)
 │   ├── templates/                 (HTML templates if any)
