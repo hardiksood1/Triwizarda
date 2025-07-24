@@ -153,8 +153,24 @@ Make sure your `config.py` contains:
 ---
 
 ## 👨‍💻 Created by **Team Innova1**
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/hardiksood1">
+        <img src="https://avatars.githubusercontent.com/u/75163135?v=4" width="100px;" alt="Hardik Sood"/><br />
+        <sub><b>Hardik Sood</b></sub>
+      </a><br />⚙️
+    </td>
+    <td align="center">
+      <a href="https://github.com/alo7lika">
+        <img src="https://avatars.githubusercontent.com/u/119437399?v=4" width="100px;" alt="Alolika Bhowmik"/><br />
+        <sub><b>Alolika Bhowmik</b></sub>
+      </a><br />🎨
+    </td>
+  </tr>
+</table>
 
 Made with ❤️ for smarter, faster, and multilingual e-commerce automation.
 
-📧 **Contact**: [hardiksood8@gmail.com]  
+📧 **Contact**: hardiksood8@gmail.com 
 🌐 **Live Demo**: *Uploaded above*
