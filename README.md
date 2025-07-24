@@ -174,5 +174,6 @@ Make sure your `config.py` contains:
 
 Made with ❤️ for smarter, faster, and multilingual e-commerce automation.
 
-📧 **Contact**: hardiksood8@gmail.com 
+📧 **Contact**: hardiksood8@gmail.com, alolikabhowmik72@gmail.com
+
 🌐 **Live Demo**: *Uploaded above*
