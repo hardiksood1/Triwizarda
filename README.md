@@ -108,11 +108,30 @@ python app.py
 
 ## 📁 Project Structure
 
-product-image-intelligence/
-├── app.py # Launches the Gradio web interface
-├── core_logic.py # AI logic for image → text + translation + SerpAPI
-├── config.py # Stores API keys and cloud endpoints
-├── requirements.txt # All Python dependencies
+Product-Image-Intelligence/
+│
+├── Dataset/
+│   ├── sample_inputs.csv           (Example data of product image inputs and outputs)
+│   └── README.md                   (Brief about input/output dataset structure)
+│
+├── Images/
+│   ├── demo (1).jpeg               (Product image example used in demo)
+│   └── Demo.gif                    (Recorded GIF preview of the app functionality)
+│
+├── Model/
+│   ├── core_logic.py              (Handles AI: image-to-text, translation, product comparison)
+│   ├── config.py                  (Stores API keys and endpoints: NVIDIA, SerpAPI)
+│   ├── README.md                  (Describes model flow and logic)
+│
+├── Web App/
+│   ├── app.py                     (Gradio app interface to run the project)
+│   ├── demo.mp4                   (Full working video demo of the app)
+│   ├── templates/                 (HTML templates if any)
+│   ├── static/                    (Custom CSS, JS or favicon if used)
+│   └── README.md                  (Instructions to run the web app)
+│
+├── requirements.txt              (Python dependencies for the whole project)
+└── README.md                     (Main project overview with badges, contributors, and demo)
 
 
 ---
