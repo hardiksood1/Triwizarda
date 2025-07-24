@@ -23,8 +23,9 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF69B4&center=true&vCenter=true&width=900&height=80&lines=✨+Product+Image+Intelligence+🌐;AI+that+understands+products+from+images+💡" alt="Product Image Intelligence" style="font-style: italic;" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=FF69B4&center=true&vCenter=true&width=1000&lines=🧠+Product+Image+Intelligence+📸;AI+that+sees+%2C+understands+%2C+speaks+your+product" alt="Typing SVG Banner" />
 </p>
+
 
 Welcome to a powerful AI tool that analyzes product images and automatically generates:
 
