@@ -22,6 +22,10 @@
   <img src="https://github.com/alo7lika/TriwizardaThon/blob/main/demo%20(1).jpeg?raw=true" alt="Demo Image" width="600"/>
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF69B4&center=true&vCenter=true&width=900&height=80&lines=✨+Product+Image+Intelligence+🌐;AI+that+understands+products+from+images+💡" alt="Product Image Intelligence" style="font-style: italic;" />
+</p>
+
 Welcome to a powerful AI tool that analyzes product images and automatically generates:
 
 - 🏷️ Brand  
