@@ -1,62 +1,128 @@
-# 🛍️ Product Image Intelligence (Multi-language)
+# 🧠📸 Product Image Intelligence (Multi-language)
+> *"AI that sees, understands, and speaks your product—instantly."*
 
-This project uses artificial intelligence to analyze product images and extract key details such as **brand**, **title**, **description**, and **features**. It also provides **comparable product recommendations** and **price comparisons** from online retailers. Output can be translated into multiple languages for global accessibility.
+Welcome to a powerful AI tool that analyzes product images and automatically generates:
 
----
-
-## 🚀 Features
-
-- 📸 **Automatic Product Analysis**: Upload a product image to extract details.
-- 🧠 **AI-Powered Insights**: Uses NVIDIA's AI model to generate product metadata.
-- 🛒 **Price & Product Comparison**: Retrieves prices and similar items via SerpApi from Google Shopping.
-- 🌐 **Multi-language Support**: Translates product descriptions into several languages.
-- 🖥️ **User-Friendly Interface**: Built with Gradio for intuitive web interaction.
+- 🏷️ Brand  
+- 📝 Title & Description  
+- ✨ Key Features  
+- 💲 Price Comparisons  
+- 🔄 Similar Product Suggestions  
+- 🌐 Translations in multiple languages
 
 ---
 
-## ⚙️ Setup Instructions
+## 🔍 What’s Inside
 
-### ✅ Requirements
-
-- Python 3.7 or later  
-- NVIDIA API key (for AI Shopping data)  
-- SerpApi key (for Google Shopping data)  
-- Invoke URL for NVIDIA Cloud Function  
+This application converts any product image into a detailed, multilingual product card—perfect for e-commerce, cataloging, and digital retail platforms.
 
 ---
 
-## 📦 Installation
----
-Download or clone the project repository.
+## 🌟 Features Overview
 
-- Install dependencies using pip:
-- pip install -r requirements.txt
+| Feature                     | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| 🖼️ Image Upload            | Upload a product image to extract all product details                       |
+| 🧠 AI-Powered Metadata      | Uses NVIDIA's Janus-Pro-7B via cloud to understand product visuals          |
+| 🌍 Multi-Language Support   | Translate output into English, Hindi, French, and more                      |
+| 🛒 Price & Product Compare  | Uses SerpApi to fetch prices and similar products from Google Shopping      |
+| 🖥️ Gradio UI                | Simple, no-code web interface for fast interaction                          |
+
 ---
 
-## 🧑‍💻 How to Use
+## ⚙️ Tech Stack
+
+- Python 3.7+
+- Gradio (Frontend)
+- Hugging Face Transformers
+- DeepSeek Janus-Pro-7B (via NVIDIA cloud)
+- SerpApi (Google Shopping API)
+- PIL (Image Processing)
+- CUDA acceleration (for local GPU inference)
+
 ---
 
-### Run the application:
----
-- python app.py
+## 🚀 Quick Start
 
-#### Then:
----
-- Open the displayed link in your browser.
-- Upload a product image.
-- Select your desired output language.
-- View product details, pricing, and similar product recommendations.
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/product-image-intelligence
+
+# 2. Navigate to the folder
+cd product-image-intelligence
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the app
+python app.py
+```
+## ✅ How to Use
+
+1. Open the **Gradio link** in your browser  
+2. 📤 Upload a **product image**  
+3. 🌐 Select your desired **language**  
+4. 👀 View the AI-generated output:  
+   - Brand  
+   - Title  
+   - Description  
+   - Features  
+   - Price comparisons & similar products  
+
 ---
 
 ## 📁 Project Structure
+
+product-image-intelligence/
+├── app.py # Launches the Gradio web interface
+├── core_logic.py # AI logic for image → text + translation + SerpAPI
+├── config.py # Stores API keys and cloud endpoints
+├── requirements.txt # All Python dependencies
+
+
 ---
--  File	:-                                                 Description
-- config.py :-                     Stores configuration variables like API keys and endpoint URLs
-- core_logic.py :-              Handles image processing, AI queries, data fetching, and translation logic
-- app.py :-                                        Launches the Gradio web interface
+
+## 🧪 Example Flow
+
+- **Upload**: Headphones image  
+- **Select**: French  
+- **Output**:
+
+Marque: Sony
+Titre: Casque sans fil
+Description: Son immersif avec réduction de bruit
+Prix: ₹2999 (plus similar products listed)
+
+
+➡️ Then try again with a **beauty product** → Output appears in **Hindi**!
+
 ---
+
 ## 📝 Notes
+
+Make sure your `config.py` contains:
+
+- `NVIDIA_API_KEY`  
+- `SERPAPI_KEY`  
+- `NVIDIA Cloud URL`  
+
+⚠️ Images are **auto-compressed** to meet API size limits  
+🌍 English is the **default output language** unless changed
+
 ---
-- Ensure all API keys and URLs are correctly configured in config.py.
-- Images are automatically compressed to meet API size requirements.
-- English is used by default unless another language is selected.
+
+## 🚧 Coming Soon
+
+- 🔊 **Voice input/output**  
+- 📄 **Export to Excel/PDF**  
+- 🛒 **Integration with Shopify / Amazon APIs**  
+- 🌐 **More language support** (Spanish, German, Bengali, etc.)
+
+---
+
+## 👨‍💻 Created by **Team Innova1**
+
+Made with ❤️ for smarter, faster, and multilingual e-commerce automation.
+
+📧 **Contact**: [your-email@example.com]  
+🌐 **Live Demo**: *Coming Soon*
